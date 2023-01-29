@@ -32,7 +32,8 @@ The app should:
 
 The following animation demonstrates the application functionality:
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
+<img width="549" alt="Screenshot 2023-01-29 at 00 38 40" src="https://user-images.githubusercontent.com/102771343/215300953-981176aa-9b98-4182-9e9c-e7ff97ca3284.png">
+
 
 
 ## Grading Requirements
