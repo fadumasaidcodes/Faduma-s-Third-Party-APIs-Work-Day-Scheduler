@@ -1,0 +1,20 @@
+table.table {
+    margin: 20px 0;
+  }
+  
+  table.table td {
+    font-size: 14px;
+  }
+  
+  table.table input[type="text"] {
+    height: 30px;
+    font-size: 14px;
+    padding: 5px;
+  }
+  
+  table.table button.save-button {
+    height: 35px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
