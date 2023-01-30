@@ -1,13 +1,13 @@
 $(document).ready(function() {
-    var calendar = $("#calendar");
+    var calendar = $(".container");
     var currentHour = moment().format("H");
   
     for (var i = 0; i < 24; i++) {
-      var hourRow = $("<tr>");
-      var hourColumn = $("<td>").text(i + ":00");
-      var eventColumn = $("<td>").addClass("event");
-      var eventInput = $("<input>").attr("type", "text");
-      var saveButton = $("<button>").text("Save").addClass("save-button");
+      var hourRow = $("<div>").addClass("row" );
+      var hourColumn = $("<div>").text(i + ":00");
+      var eventColumn = $("<div>").addClass("event");
+      var eventInput = $("<textarea>").attr("class", "col-10");
+      var saveButton = $("<button>").text("Save").addClass("saveBtn");
   
       eventColumn.append(eventInput);
       hourRow.append(hourColumn, eventColumn, saveButton);
