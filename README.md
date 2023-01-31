@@ -6,6 +6,9 @@ Create a simple calendar application that allows a user to save events for each 
 
 You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
 
+## Screenshot 
+![work-day](https://user-images.githubusercontent.com/102771343/215820269-ad3cb0c4-4a98-47b6-a34c-d6cb43795fd2.JPG)
+
 ## User Story
 
 ```md
