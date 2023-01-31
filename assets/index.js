@@ -35,10 +35,8 @@ $(document).ready(function () {
     calendar.append(hourRow);
   }
 
-  // Handle clicking the save button
   $(".saveBtn").on("click", function (event) {
     event.preventDefault();
-
 
     // Get the value of the event input
     var eventValue = $(this).siblings(".textarea").val();
@@ -48,7 +46,12 @@ $(document).ready(function () {
 
     // Save the event in local storage with the key as the hour
     localStorage.setItem(eventHour, eventValue);
+
+    // Show a message that the event was saved
+    alert("Your Appointment is saved!");
   });
+
+
 
   // Load saved events from local storage on page load
   $("textarea").each(function () {
@@ -60,4 +63,3 @@ $(document).ready(function () {
     }
   });
 });
-;
