@@ -2,7 +2,7 @@ $(document).ready(function () {
   var calendar = $(".container");
   var currentHour = moment().format("H");
 
-  for (var i = 9; i < 20; i++) {
+  for (var i = 9; i < 18; i++) {
     var hourRow = $("<div>").addClass("row input-group");
     var hourColumn = $("<div>").text(i + ":00").addClass("hour");
     // var eventColumn = $("<form>").addClass("event");
