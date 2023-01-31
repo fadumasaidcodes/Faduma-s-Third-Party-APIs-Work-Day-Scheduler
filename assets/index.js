@@ -1,5 +1,8 @@
 $(document).ready(function () {
+  // added the currentDay to the front of the pge
+  var currentDay = moment().format("dddd, MMMM Do")
   // Select the calendar container
+  $("#currentDay").text(currentDay)
   var calendar = $(".container");
 
   // Get the current hour in military time
